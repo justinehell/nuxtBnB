@@ -14,5 +14,17 @@ export default {
       homes: homes.slice(0, 3),
     }
   },
+  head() {
+    return {
+      title: 'Homepage',
+      meta: [
+        {
+          name: 'descripton',
+          content: 'This is a homepage!',
+          hid: 'description',
+        },
+      ],
+    }
+  },
 }
 </script>
