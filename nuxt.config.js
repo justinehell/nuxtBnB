@@ -14,6 +14,10 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
+  // Router: https://nuxtjs.org/docs/configuration-glossary/configuration-router/#prefetchlinks
+  router: {
+    prefetchLinks: false,
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
